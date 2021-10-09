@@ -1,20 +1,7 @@
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Converter from "./containers/Converter";
-import ExchangeRates from "./containers/ExchangeRates";
+import Home from "./containers/Home/Home";
 
 function App() {
-  return (
-    <Router>
-      <Switch>
-        <Route path="/exchange-rates">
-          <ExchangeRates />
-        </Route>
-        <Route path="/">
-          <Converter />
-        </Route>
-      </Switch>
-    </Router>
-  );
+  return <Home />;
 }
 
 export default App;
