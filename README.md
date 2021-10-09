@@ -18,3 +18,7 @@ A basic cryptocurrency app that can be used to convert between different currenc
 ## Note
 
 [CoinAPI](https://docs.coinapi.io/#md-rest-api) has a rate limit of 100 requests per day for an API key. Only one API key has been provided in **.env.examples** file
+
+## Wireframe
+
+![Wireframe](https://user-images.githubusercontent.com/11388011/136645391-03a24389-849d-4574-b729-46b30f2049c6.jpeg)
